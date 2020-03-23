@@ -108,7 +108,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'portfolio2',
-        'USER': 'moringa',
+        'USER': 'moringaschool',
     'PASSWORD':'Securedd',
     }
 }
