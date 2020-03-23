@@ -28,6 +28,7 @@ class Service(models.Model):
 class RecentWork(models.Model):
     title = models.CharField(max_length=100, verbose_name="Work title")
     image = models.ImageField(upload_to="works")
+    link = models.CharField(max_length=100, verbose_name="Work link" , default="url for project")
 
     def __str__(self):
         return self.title
