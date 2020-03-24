@@ -107,7 +107,7 @@ WSGI_APPLICATION = 'portfolio.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'portfolio2',
+        'NAME': 'cv',
         'USER': 'moringaschool',
     'PASSWORD':'Securedd',
     }
